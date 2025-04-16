@@ -1,9 +1,0 @@
-{
-    "name": "lunar_legacy",
-    "version": "0.1.1",
-    "title": "Lunar Legacy",
-    "author": "DoneTax",
-    "factorio_version": "2.0",
-    "dependencies": ["base >= 2.0", "space-age >= 2.0", "PlanetsLib", "lunaris_graphics", "rubarion_graphics"],
-    "description": "WIP. VERY EARLY STAGE."
-}
