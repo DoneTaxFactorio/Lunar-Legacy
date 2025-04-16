@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2025-04-13
+  Info:
+    - Added new ores: Lunore & Rubacite
+    - Recolored terrain and adjusted terrain generation
+    - Added Autoplace Settings for Lunaris Cliffs, Rocks and its ore "Lunore"
+    - Added techs required to get to Lunaris and Rubarion
+    - Added Trees (only functionality, no design changes yet)
+    - Added three more placeholders to the solar system to provide a layout
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2025-04-12
+  Info:
+    - Starting the project "Lunar Legacy" to create a standalone solar system with a few planets orbiting
