@@ -19,6 +19,6 @@ data:extend({
   drop_sound = item_sounds.resource_inventory_move,
   stack_size = 50,
   default_import_location = "lunaris",
-  weight = 2*kg
+  weight = 6.6666666666666666666667*kg
   },
 })

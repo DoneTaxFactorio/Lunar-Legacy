@@ -3,19 +3,21 @@ data:extend({
   {
     type = "autoplace-control",
     name = "lunaris_cliff",
-    order = "c-z",
-    category = "cliff"
+    order = "f-a",
+    category = "cliff",
+    can_be_disabled = true,
   },
   {
     type = "autoplace-control",
-    name = "lunaris-enemy-base",
-    order = "b-z",
-    category = "enemy"
+    name = "lunaris_enemy-base",
+    order = "z-a",
+    category = "enemy",
+    can_be_disabled = true,
   },
   {
     type = "autoplace-control",
     name = "lunaris_lunore",
-    order = "b-z",
+    order = "f-a",
     category = "resource",
     localised_name = {"", "[entity=lunaris_lunore] ", {"entity-name.lunaris_lunore"}},
     richness = true,
@@ -23,39 +25,63 @@ data:extend({
   {
     type = "autoplace-control",
     name = "lunaris_rocks",
-    order = "c-y",
+    order = "f-a",
     category = "terrain",
-    can_be_disabled = false
+    can_be_disabled = true
   },
   {
     type = "autoplace-control",
     name = "lunaris_plants",
-    order = "c-z-c",
+    order = "f-b",
     category = "terrain",
-    can_be_disabled = false
+    can_be_disabled = true,
+    richness = true,
   },
   {
     type = "autoplace-control",
-    name = "iron-ore",
+    name = "lunaris_iron-ore",
     localised_name = {"", "[entity=iron-ore] ", {"entity-name.iron-ore"}},
     richness = true,
-    order = "a-a",
+    order = "f-b",
     category = "resource"
   },
   {
     type = "autoplace-control",
-    name = "copper-ore",
+    name = "lunaris_copper-ore",
     localised_name = {"", "[entity=copper-ore] ", {"entity-name.copper-ore"}},
     richness = true,
-    order = "a-b",
+    order = "f-c",
     category = "resource"
   },
   {
     type = "autoplace-control",
-    name = "lunaris_trees",  -- dein eigener Name
+    name = "lunaris_water",
+    order = "f-c",
+    category = "terrain"
+  },
+  {
+    type = "autoplace-control",
+    name = "lunaris_coal",
+    localised_name = {"", "[entity=coal] ", {"entity-name.coal"}},
     richness = true,
-    order = "a[tree]-b[lunaris_trees]",
-    category = "terrain"  -- oder "terrain" für nicht-Ressourcen
-  }
+    order = "f-d",
+    category = "resource"
+  },
+  {
+    type = "autoplace-control",
+    name = "lunaris_crude-oil",
+    localised_name = {"", "[entity=crude-oil] ", {"entity-name.crude-oil"}},
+    richness = true,
+    order = "f-e",
+    category = "resource"
+  },
+  {
+    type = "autoplace-control",
+    name = "lunaris_stone",
+    localised_name = {"", "[entity=stone] ", {"entity-name.stone"}},
+    richness = true,
+    order = "f-f",
+    category = "resource"
+  },
 }
 )

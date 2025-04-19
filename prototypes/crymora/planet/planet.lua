@@ -1,0 +1,53 @@
+local planet_map_gen = require("prototypes/crymora/planet/planet-map-gen")
+local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
+
+data:extend(
+{
+  {
+    type = "planet",
+    name = "crymora",
+    icon = "__crymora_graphics__/graphics/icons/crymora.png",
+    starmap_icon = "__crymora_graphics__/graphics/icons/starmap-planet-crymora.png",
+    starmap_icon_size = 512,
+    gravity_pull = 20,
+    distance = 20, --how far away the planet is from the center
+    orientation = 0.60,
+    magnitude = 1.4,
+    order = "b[crymora]",
+    subgroup = "planets",
+    map_seed_offset = 0,
+    map_gen_settings = planet_map_gen.crymora(),
+    pollutant_type = nil,
+    solar_power_in_space = 500,
+    platform_procession_set =
+    {
+      arrival = {"planet-to-platform-b"},
+      departure = {"platform-to-planet-a"}
+    },
+    planet_procession_set =
+    {
+      arrival = {"platform-to-planet-b"},
+      departure = {"planet-to-platform-a"}
+    },
+    surface_properties =
+    {
+      ["day-night-cycle"] = 2 * minute,
+      ["magnetic-field"] = 25,
+      ["solar-power"] = 400,
+      pressure = 4000,
+      gravity = 40
+    },
+  },
+  {
+    type = "space-connection",
+    name = "lunaris-crymora",
+    icon = "__crymora_graphics__/graphics/icons/crymora.png",
+    subgroup = "planet-connections",
+    from = "lunaris",
+    to = "crymora",
+    order = "a",
+    length = 15000,
+    asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
+  },
+  
+})

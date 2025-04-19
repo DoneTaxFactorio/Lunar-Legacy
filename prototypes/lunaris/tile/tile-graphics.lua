@@ -48,7 +48,7 @@ tile_graphics.fulgora_oil_ocean_particle_tints =
 
 tile_graphics.patch_for_inner_corner_of_transition_between_transition =
 {
-  filename = "__base__/graphics/terrain/water-transitions/water-patch.png",
+  filename = "__lunaris_graphics__/graphics/terrain/water-transitions/water-patch.png",
   scale = 0.5,
   width = 64,
   height = 64

@@ -1,4 +1,29 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2025-04-19
+  Info:
+    - Renamed "Rubarion" to "Crystara" (it is removed for now from the solar system until next release)
+    - Added Lunaric Biters, Spitters, Worms and Spawners to Lunaris
+    - Added autoplace controls for: Water, Enemys, Ores, Rocks, Cliffs, Plants
+    - Lunore is now a hard-solid and the big drills require water to mine it
+    - Added decorative elements (small craters, big craters...)
+    - Fixed the order for autoplace controls so everything should be clean now
+    - Recolored multiple sprites and adjusted their brightness and contrast
+    - Added a README file for basic information + discord server link
+    - Adjusted Factoriopedia entrys for lunaris entitys, tiles and decoration
+    - Added Glow to Lunore and changed its texture
+    - Added a small description to lunore
+    - Added a pollution function to lunaris
+    - Updated some graphics within the separate lunar legacy graphic mods
+    - Compressed most graphics to be 70-80% smaller
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2025-04-16
+  Info:
+    - Separated the Lunar Legacy Graphics into sub-mods/dependency mods (Lunaris Graphics, Rubarion Graphics...)
+    - Reduced the overall file size by a huge amount (separation of graphics, removing of unneccessary graphics...)
+    - Added one planet placeholder (not really implemented yet public) for the third planet "Crymora"
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2025-04-13
   Info:

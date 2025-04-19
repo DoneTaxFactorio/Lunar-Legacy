@@ -830,7 +830,7 @@ data:extend
     transition_merges_with_tile = "lunaris_water",
     collision_mask = tile_collision_masks.water(),
     fluid = "water",
-    autoplace = {probability_expression = "water_base(-2, 200)"},
+    autoplace = {probability_expression = "lunaris_water_base(-2, 200)"},
     effect = "water",
     effect_color = {122, 228, 207},--{ 23, 111, 129 }, -- { 30, 76, 94 }
     effect_color_secondary = { 45, 68, 25 },
@@ -928,7 +928,7 @@ data:extend
     collision_mask = tile_collision_masks.water(),
     subgroup = "lunaris-tiles",
     fluid = "water",
-    autoplace = {probability_expression = "water_base(0, 100)"},
+    autoplace = {probability_expression = "lunaris_water_base(0, 100)"},
     effect = "water",
     effect_color = { 157, 255, 236 },
     effect_color_secondary = { 49, 80, 14 },
@@ -1204,7 +1204,7 @@ data:extend
     autoplace = {probability_expression = 'expression_in_range_base(-10, 0.7, 11, 11) + noise_layer_noise(19)'},
     layer = 26,
     variants = tile_variations_template(
-      "__base__/graphics/terrain/grass-1.png", "__base__/graphics/terrain/masks/transition-3.png",
+      "__lunaris_graphics__/graphics/terrain/grass-1.png", "__base__/graphics/terrain/masks/transition-3.png",
       {
         max_size = 4,
         [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -1369,7 +1369,7 @@ data:extend
                                                expression_in_range_base(0.4, -10, 0.45, 0.25)) + noise_layer_noise(6)'},
     layer = 19,
     variants = tile_variations_template(
-      "__base__/graphics/terrain/dirt-1.png", "__base__/graphics/terrain/masks/transition-1.png",
+      "__lunaris_graphics__/graphics/terrain/dirt-1.png", "__base__/graphics/terrain/masks/transition-1.png",
       {
         max_size = 4,
         [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -1433,7 +1433,7 @@ data:extend
     autoplace = {probability_expression = 'expression_in_range_base(-10, 0.35, 0.55, 0.4) + noise_layer_noise(8)'},
     layer = 21,
     variants = tile_variations_template(
-      "__base__/graphics/terrain/dirt-3.png", "__base__/graphics/terrain/masks/transition-1.png",
+      "__lunaris_graphics__/graphics/terrain/dirt-3.png", "__base__/graphics/terrain/masks/transition-1.png",
       {
         max_size = 4,
         [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -1597,7 +1597,7 @@ data:extend
     layer = 8,
 
     variants = tile_variations_template(
-      "__base__/graphics/terrain/sand-1.png", "__base__/graphics/terrain/masks/transition-4.png",
+      "__lunaris_graphics__/graphics/terrain/sand-1.png", "__base__/graphics/terrain/masks/transition-4.png",
       {
         max_size = 8,
         [2] = { probability = 0.39, weights = {0.025, 0.010, 0.013, 0.025, 0.025, 0.100, 0.100, 0.005, 0.010, 0.010, 0.005, 0.005, 0.001, 0.015, 0.020, 0.020} },
@@ -1766,7 +1766,7 @@ data:extend
                                                expression_in_range_base(0.8, 0.2, 11, 0.25)) + noise_layer_noise(32)'},
     layer = 15,
     variants = tile_variations_template(
-      "__base__/graphics/terrain/red-desert-2.png", "__base__/graphics/terrain/masks/transition-1.png",
+      "__lunaris_graphics__/graphics/terrain/red-desert-2.png", "__base__/graphics/terrain/masks/transition-1.png",
       {
         max_size = 4,
         [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -2585,3 +2585,13 @@ for k, v in pairs(data.raw["tile"]) do
   }
 end
 --]]
+
+
+data:extend({
+  {
+    type = "noise-function",
+    name = "lunaris_water_base",
+    parameters = {"max_elevation", "influence"},
+    expression = "if(max_elevation >= elevation, influence * min(max_elevation - elevation, 1), -inf)"
+  },
+})

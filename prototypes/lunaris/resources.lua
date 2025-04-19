@@ -7,17 +7,18 @@ data:extend({
     type = "resource",
     name = "lunaris_lunore",
     icon = "__lunaris_graphics__/graphics/icons/lunore.png",
+    localised_description = "Primordial uranium forged in cosmic fires, its venomous glow pulses with ancient power.",
     flags = {"placeable-neutral"},
     order = "b",
     map_color = {r = 55/256, g = 230/256, b = 240/256, a = 1.000},
     mining_visualisation_tint = {r = 150/256, g = 150/256, b = 180/256, a = 1.000},
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    category = "basic-solid",
+    category = "hard-solid",
     autoplace = resource_autoplace.resource_autoplace_settings{
       name = "lunaris_lunore",
       order = "b",
-      base_density = 1.2,
+      base_density = 6,
       base_spots_per_km2 = 0.75,
       has_starting_area_placement = true,
       random_spot_size_minimum = 1,
@@ -38,9 +39,31 @@ data:extend({
         scale = 0.5
       }
     },
+    stages_effect =
+    {
+      sheet =
+      {
+        filename = "__lunaris_graphics__/graphics/entity/lunore-ore-glow.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        frame_count = 8,
+        variation_count = 8,
+        scale = 0.5,
+        blend_mode = "additive",
+        flags = {"light"}
+      }
+    },
+    effect_animation_period = 5,
+    effect_animation_period_deviation = 1,
+    effect_darkness_multiplier = 3.6,
+    min_effect_alpha = 0.2,
+    max_effect_alpha = 0.3,
     minable =
     {
-      mining_time = 1,
+      mining_time = 5,
+      fluid_amount = 10,
+      required_fluid = "water",
       results =
       {
         {
@@ -188,3 +211,129 @@ data:extend({
             }
           ),
 })
+
+-- COAL AUTOPLACE
+
+local lunaris_coal = table.deepcopy(data.raw.resource["coal"])
+
+-- give it a new name so it doesn't conflict with the original
+lunaris_coal.name = "lunaris_coal"
+
+-- (optional) if you want it to drop the same item:
+lunaris_coal.minable = lunaris_coal.minable or {}
+lunaris_coal.minable.result = "coal"
+lunaris_coal.autoplace = resource_autoplace.resource_autoplace_settings{
+  name = "lunaris_coal",
+  order = "b-c",
+  base_density = 8,
+  base_spots_per_km2 = 1.5,
+  has_starting_area_placement = true,
+  random_spot_size_minimum = 1,
+  random_spot_size_maximum = 1,
+  regular_rq_factor_multiplier  = 1.0,
+  starting_rq_factor_multiplier = 1.1,
+  candidate_spot_count = 21,
+}
+-- register it with the game
+data:extend({ lunaris_coal })
+
+-- IRON AUTOPLACE
+
+local lunaris_iron_ore = table.deepcopy(data.raw.resource["iron-ore"])
+
+-- give it a new name so it doesn't conflict with the original
+lunaris_iron_ore.name = "lunaris_iron-ore"
+
+-- (optional) if you want it to drop the same item:
+lunaris_iron_ore.minable = lunaris_iron_ore.minable or {}
+lunaris_iron_ore.minable.result = "iron-ore"
+lunaris_iron_ore.autoplace = resource_autoplace.resource_autoplace_settings{
+  name = "lunaris_iron-ore",
+  order = "b-c",
+  base_density = 10,
+  base_spots_per_km2 = 1.2,
+  has_starting_area_placement = true,
+  random_spot_size_minimum = 1,
+  random_spot_size_maximum = 1,
+  regular_rq_factor_multiplier  = 1.10,
+  starting_rq_factor_multiplier = 1.5,
+  candidate_spot_count = 22,
+}
+-- register it with the game
+data:extend({ lunaris_iron_ore })
+
+-- COPPER AUTOPLACE
+
+local lunaris_copper_ore = table.deepcopy(data.raw.resource["copper-ore"])
+
+-- give it a new name so it doesn't conflict with the original
+lunaris_copper_ore.name = "lunaris_copper-ore"
+
+-- (optional) if you want it to drop the same item:
+lunaris_copper_ore.minable = lunaris_copper_ore.minable or {}
+lunaris_copper_ore.minable.result = "copper-ore"
+lunaris_copper_ore.autoplace = resource_autoplace.resource_autoplace_settings{
+  name = "lunaris_copper-ore",
+  order = "b-c",
+  base_density = 8,
+  base_spots_per_km2 = 1.2,
+  has_starting_area_placement = true,
+  random_spot_size_minimum = 1,
+  random_spot_size_maximum = 1,
+  regular_rq_factor_multiplier  = 1.10,
+  starting_rq_factor_multiplier = 1.2,
+  candidate_spot_count = 22,
+}
+-- register it with the game
+data:extend({ lunaris_copper_ore })
+
+-- STONE AUTOPLACE
+
+local lunaris_stone = table.deepcopy(data.raw.resource["stone"])
+
+-- give it a new name so it doesn't conflict with the original
+lunaris_stone.name = "lunaris_stone"
+
+-- (optional) if you want it to drop the same item:
+lunaris_stone.minable = lunaris_stone.minable or {}
+lunaris_stone.minable.result = "stone"
+lunaris_stone.autoplace = resource_autoplace.resource_autoplace_settings{
+  name = "lunaris_stone",
+  order = "b-c",
+  base_density = 6,
+  base_spots_per_km2 = 1.2,
+  has_starting_area_placement = true,
+  random_spot_size_minimum = 1,
+  random_spot_size_maximum = 1,
+  regular_rq_factor_multiplier  = 1.10,
+  starting_rq_factor_multiplier = 1.2,
+  candidate_spot_count = 22,
+}
+-- register it with the game
+data:extend({ lunaris_stone })
+
+-- STONE AUTOPLACE
+
+local lunaris_crude_oil = table.deepcopy(data.raw.resource["crude-oil"])
+
+-- give it a new name so it doesn't conflict with the original
+lunaris_crude_oil.name = "lunaris_crude-oil"
+
+-- (optional) if you want it to drop the same item:
+lunaris_crude_oil.minable = lunaris_crude_oil.minable or {}
+lunaris_crude_oil.minable.result = "crude-oil"
+lunaris_crude_oil.autoplace = resource_autoplace.resource_autoplace_settings{
+  name = "lunaris_crude-oil",
+  order = "c",
+  base_density = 8.2,
+  base_spots_per_km2 = 1.8,
+  has_starting_area_placement = false,
+  random_spot_size_minimum = 1,
+  random_spot_size_maximum = 1,
+  regular_rq_factor_multiplier  = 1,
+  additional_richness = 220000,
+  candidate_spot_count = 22,
+  random_probability = 1/48,
+}
+-- register it with the game
+data:extend({ lunaris_crude_oil })

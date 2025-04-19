@@ -193,7 +193,7 @@ function lichen(name, tint)
     pictures =
     {
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-00.png",
         priority = base_decorative_sprite_priority,
         width = 356,
         height = 248,
@@ -202,7 +202,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-01.png",
         priority = base_decorative_sprite_priority,
         width = 334,
         height = 260,
@@ -211,7 +211,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-02.png",
         priority = base_decorative_sprite_priority,
         width = 418,
         height = 262,
@@ -220,7 +220,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-03.png",
         priority = base_decorative_sprite_priority,
         width = 364,
         height = 226,
@@ -229,7 +229,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-04.png",
         priority = base_decorative_sprite_priority,
         width = 382,
         height = 304,
@@ -238,7 +238,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-05.png",
         priority = base_decorative_sprite_priority,
         width = 300,
         height = 224,
@@ -247,7 +247,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-06.png",
         priority = base_decorative_sprite_priority,
         width = 314,
         height = 224,
@@ -256,7 +256,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-07.png",
         priority = base_decorative_sprite_priority,
         width = 318,
         height = 266,
@@ -265,7 +265,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-08.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-08.png",
         priority = base_decorative_sprite_priority,
         width = 326,
         height = 200,
@@ -274,7 +274,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-09.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-09.png",
         priority = base_decorative_sprite_priority,
         width = 304,
         height = 182,
@@ -283,7 +283,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-10.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-10.png",
         priority = base_decorative_sprite_priority,
         width = 238,
         height = 172,
@@ -292,7 +292,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-11.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-11.png",
         priority = base_decorative_sprite_priority,
         width = 332,
         height = 258,
@@ -301,7 +301,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-12.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-12.png",
         priority = base_decorative_sprite_priority,
         width = 256,
         height = 218,
@@ -310,7 +310,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-13.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-13.png",
         priority = base_decorative_sprite_priority,
         width = 372,
         height = 216,
@@ -319,7 +319,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-14.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-14.png",
         priority = base_decorative_sprite_priority,
         width = 134,
         height = 140,
@@ -328,7 +328,7 @@ function lichen(name, tint)
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/lichen-decal/lichen-decal-15.png",
+        filename = "__lunaris_graphics__/graphics/decorative/lichen-decal/lichen-decal-15.png",
         priority = base_decorative_sprite_priority,
         width = 174,
         height = 134,
@@ -2735,7 +2735,7 @@ data:extend{
       }
     }
   },
-  lichen("lunaris_lichen-decal", {r = 221 / 255, g = 219 / 255, b = 81 / 255}),
+  lichen("lunaris_lichen-decal", {r = 47 / 255, g = 71 / 255, b = 81 / 255}),
   {
     name = "worms-decal",
     type = "optimized-decorative",
@@ -2994,7 +2994,7 @@ data:extend{
     }
   },
   {
-    name = "lunaris_green-hairy-grass",
+    name = "green-hairy-grass",
     type = "optimized-decorative",
     order = "b[decorative]-a[grass]-a[hairy]",
     collision_box = {{-1, -1}, {1, 1}},
@@ -3177,7 +3177,7 @@ data:extend{
     }
   },
   {
-    name = "muddy-stump",
+    name = "lunaris_muddy-stump",
     type = "optimized-decorative",
     order = "b[decorative]-a[stump]-a[muddy]",
     collision_mask = {layers={water_tile=true}},
@@ -3187,7 +3187,7 @@ data:extend{
     pictures =
     {
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-00.png",
         priority = base_decorative_sprite_priority,
         width = 106,
         height = 90,
@@ -3195,7 +3195,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-01.png",
         priority = base_decorative_sprite_priority,
         width = 114,
         height = 84,
@@ -3203,7 +3203,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-02.png",
         priority = base_decorative_sprite_priority,
         width = 120,
         height = 92,
@@ -3211,7 +3211,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-03.png",
         priority = base_decorative_sprite_priority,
         width = 104,
         height = 74,
@@ -3219,7 +3219,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-04.png",
         priority = base_decorative_sprite_priority,
         width = 92,
         height = 68,
@@ -3227,7 +3227,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-05.png",
         priority = base_decorative_sprite_priority,
         width = 92,
         height = 80,
@@ -3235,7 +3235,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-06.png",
         priority = base_decorative_sprite_priority,
         width = 112,
         height = 72,
@@ -3243,7 +3243,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-07.png",
         priority = base_decorative_sprite_priority,
         width = 88,
         height = 84,
@@ -3251,7 +3251,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-08.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-08.png",
         priority = base_decorative_sprite_priority,
         width = 92,
         height = 60,
@@ -3259,7 +3259,7 @@ data:extend{
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/muddy-stump/muddy-stump-09.png",
+        filename = "__lunaris_graphics__/graphics/decorative/muddy-stump/muddy-stump-09.png",
         priority = base_decorative_sprite_priority,
         width = 96,
         height = 72,
@@ -4474,7 +4474,7 @@ data:extend{
     name = "lunaris_big-rock",
     type = "simple-entity",
     flags = {"placeable-neutral", "placeable-off-grid"},
-    icon = "__base__/graphics/icons/big-rock.png",
+    icon = "__lunaris_graphics__/graphics/icons/big-rock.png",
     subgroup = "grass",
     order = "b[decorative]-l[rock]-b[big]",
     collision_box = {{-1.0, -0.9}, {1.0, 1.0}},
@@ -4506,7 +4506,7 @@ data:extend{
     },
     autoplace =
     {
-      control = "rocks",
+      control = "lunaris_rocks",
       order = "a[doodad]-a[rock]-b[big]",
       probability_expression = "multiplier * control * (region_box + rock_density - penalty)",
       local_expressions =
@@ -4514,146 +4514,146 @@ data:extend{
         multiplier = 0.17,
         penalty = 1.6,
         region_box = "range_select_base(moisture, 0.35, 1, 0.2, -10, 0)",
-        control = "control:rocks:size"
+        control = "control:lunaris_rocks:size"
       }
     },
     pictures =
     {
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-01.png",
         width = 188,
         height = 127,
         scale = 0.5,
         shift = {-0.046875, 0.171875}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-02.png",
         width = 195,
         height = 135,
         scale = 0.5,
         shift = {0.445312, 0.125}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-03.png",
         width = 205,
         height = 132,
         scale = 0.5,
         shift = {0.484375, 0.0546875}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-04.png",
         width = 144,
         height = 142,
         scale = 0.5,
         shift = {0.210938, 0.0390625}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-05.png",
         width = 130,
         height = 107,
         scale = 0.5,
         shift = {0.0234375, 0.226562}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-06.png",
         width = 165,
         height = 109,
         scale = 0.5,
         shift = {0.15625, 0.226562}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-07.png",
         width = 150,
         height = 133,
         scale = 0.5,
         shift = {0.257812, 0.148438}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-08.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-08.png",
         width = 156,
         height = 111,
         scale = 0.5,
         shift = {0.0859375, 0.179688}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-09.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-09.png",
         width = 187,
         height = 120,
         scale = 0.5,
         shift = {0.078125, 0.0859375}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-10.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-10.png",
         width = 225,
         height = 128,
         scale = 0.5,
         shift = {-0.15625, 0.0703125}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-11.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-11.png",
         width = 183,
         height = 144,
         scale = 0.5,
         shift = {0.195312, 0.257812}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-12.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-12.png",
         width = 158,
         height = 138,
         scale = 0.5,
         shift = {0.0390625, 0.15625}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-13.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-13.png",
         width = 188,
         height = 150,
         scale = 0.5,
         shift = {0.226562, 0.21875}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-14.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-14.png",
         width = 186,
         height = 160,
         scale = 0.5,
         shift = {0.132812, 0.0625}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-15.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-15.png",
         width = 181,
         height = 174,
         scale = 0.5,
         shift = {0.304688, -0.09375}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-16.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-16.png",
         width = 212,
         height = 150,
         scale = 0.5,
         shift = {0.335938, 0.117188}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-17.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-17.png",
         width = 155,
         height = 117,
         scale = 0.5,
         shift = {0.25, 0.0390625}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-18.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-18.png",
         width = 141,
         height = 128,
         scale = 0.5,
         shift = {0.304688, 0.0390625}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-19.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-19.png",
         width = 176,
         height = 114,
         scale = 0.5,
         shift = {0.390625, 0.0234375}
       },
       {
-        filename = "__base__/graphics/decorative/big-rock/big-rock-20.png",
+        filename = "__lunaris_graphics__/graphics/decorative/big-rock/big-rock-20.png",
         width = 120,
         height = 125,
         scale = 0.5,
@@ -5657,7 +5657,7 @@ data:extend{
     }
   },
   {
-    name = "dark-mud-decal",
+    name = "lunaris_dark-mud-decal",
     type = "optimized-decorative",
     order = "b[decorative]-b[red-desert-decal]",
     collision_box = {{-4.625, -3.25}, {4.6875, 3.125}},
@@ -5673,210 +5673,210 @@ data:extend{
     {
       --decalDark
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-00.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-01.png",
         width = 613,
         height = 438,
         shift = util.by_pixel(-0.25, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-02.png",
         width = 612,
         height = 438,
         shift = util.by_pixel(0, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-03.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-04.png",
         width = 612,
         height = 438,
         shift = util.by_pixel(0, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-05.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-06.png",
         width = 613,
         height = 434,
         shift = util.by_pixel(-0.25, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-07.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-08.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-08.png",
         width = 612,
         height = 436,
         shift = util.by_pixel(0, 0.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-09.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-09.png",
         width = 612,
         height = 437,
         shift = util.by_pixel(0, 0.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-10.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-10.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-11.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-11.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-12.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-12.png",
         width = 612,
         height = 439,
         shift = util.by_pixel(0, 0.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-13.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-13.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-14.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-14.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-15.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-15.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 0.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-16.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-16.png",
         width = 612,
         height = 437,
         shift = util.by_pixel(0, 0.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-17.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-17.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 0.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-18.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-18.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-19.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-19.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 0.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-20.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-20.png",
         width = 612,
         height = 438,
         shift = util.by_pixel(0, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-21.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-21.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-22.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-22.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-23.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-23.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-24.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-24.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-25.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-25.png",
         width = 612,
         height = 434,
         shift = util.by_pixel(0, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-26.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-26.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 0.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-27.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-27.png",
         width = 612,
         height = 435,
         shift = util.by_pixel(0, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-28.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-28.png",
         width = 612,
         height = 436,
         shift = util.by_pixel(0, 0.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/dark-mud-decal/dark-mud-decal-29.png",
+        filename = "__lunaris_graphics__/graphics/decorative/dark-mud-decal/dark-mud-decal-29.png",
         width = 612,
         height = 436,
         shift = util.by_pixel(0, 0.5),
@@ -6115,7 +6115,7 @@ data:extend{
     }
   },
   {
-    name = "light-mud-decal",
+    name = "lunaris_light-mud-decal",
     type = "optimized-decorative",
     order = "b[decorative]-b[red-desert-decal]",
     collision_box = {{-3.375, -2.3125}, {3.25, 2.3125}},
@@ -6134,210 +6134,210 @@ data:extend{
     {
       --lightDecal
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-00.png",
         width = 400,
         height = 299,
         shift = util.by_pixel(4.5, -2.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-01.png",
         width = 419,
         height = 320,
         shift = util.by_pixel(-0.75, 2),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-02.png",
         width = 417,
         height = 287,
         shift = util.by_pixel(-1.25, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-03.png",
         width = 421,
         height = 298,
         shift = util.by_pixel(-0.25, 5.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-04.png",
         width = 396,
         height = 302,
         shift = util.by_pixel(6, 4),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-05.png",
         width = 408,
         height = 295,
         shift = util.by_pixel(-2.5, 7.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-06.png",
         width = 417,
         height = 317,
         shift = util.by_pixel(-1.25, 3.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-07.png",
         width = 419,
         height = 312,
         shift = util.by_pixel(0.75, 2.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-08.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-08.png",
         width = 413,
         height = 317,
         shift = util.by_pixel(-2.25, 2.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-09.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-09.png",
         width = 403,
         height = 310,
         shift = util.by_pixel(0.25, 1.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-10.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-10.png",
         width = 411,
         height = 307,
         shift = util.by_pixel(-0.75, 1.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-11.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-11.png",
         width = 421,
         height = 295,
         shift = util.by_pixel(-0.25, -0.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-12.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-12.png",
         width = 420,
         height = 280,
         shift = util.by_pixel(-0.5, -7),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-13.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-13.png",
         width = 403,
         height = 311,
         shift = util.by_pixel(0.75, 3.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-14.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-14.png",
         width = 418,
         height = 304,
         shift = util.by_pixel(0, 2),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-15.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-15.png",
         width = 398,
         height = 284,
         shift = util.by_pixel(-3.5, 6.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-16.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-16.png",
         width = 406,
         height = 313,
         shift = util.by_pixel(4, 0.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-17.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-17.png",
         width = 420,
         height = 294,
         shift = util.by_pixel(0.5, 4.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-18.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-18.png",
         width = 379,
         height = 289,
         shift = util.by_pixel(0.25, 5.75),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-19.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-19.png",
         width = 401,
         height = 311,
         shift = util.by_pixel(-5.25, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-20.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-20.png",
         width = 418,
         height = 315,
         shift = util.by_pixel(0.5, 1.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-21.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-21.png",
         width = 418,
         height = 314,
         shift = util.by_pixel(1, 3),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-22.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-22.png",
         width = 421,
         height = 270,
         shift = util.by_pixel(-0.25, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-23.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-23.png",
         width = 403,
         height = 290,
         shift = util.by_pixel(2.25, -2.5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-24.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-24.png",
         width = 418,
         height = 315,
         shift = util.by_pixel(-0.5, 2.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-25.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-25.png",
         width = 414,
         height = 310,
         shift = util.by_pixel(-2, 4),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-26.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-26.png",
         width = 403,
         height = 306,
         shift = util.by_pixel(-3.75, 5),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-27.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-27.png",
         width = 416,
         height = 303,
         shift = util.by_pixel(1, 0.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-28.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-28.png",
         width = 422,
         height = 311,
         shift = util.by_pixel(0, 2.25),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/light-mud-decal/light-mud-decal-29.png",
+        filename = "__lunaris_graphics__/graphics/decorative/light-mud-decal/light-mud-decal-29.png",
         width = 406,
         height = 292,
         shift = util.by_pixel(-3.5, 2),
@@ -6777,7 +6777,7 @@ data:extend{
     }
   },
   {
-    name = "enemy-decal",
+    name = "lunaris_enemy-decal",
     type = "optimized-decorative",
     order = "b[decorative]-b[enemy-decal]",
     collision_box = {{-6, -4}, {6, 4}},
@@ -6789,56 +6789,56 @@ data:extend{
     pictures =
     {
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-00.png",
         width = 1016,
         height = 726,
         shift = util.by_pixel(0, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-01.png",
         width = 998,
         height = 722,
         shift = util.by_pixel(-4, 1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-02.png",
         width = 1014,
         height = 718,
         shift = util.by_pixel(0, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-03.png",
         width = 1010,
         height = 718,
         shift = util.by_pixel(1, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-04.png",
         width = 862,
         height = 722,
         shift = util.by_pixel(4, 0),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-05.png",
         width = 920,
         height = 578,
         shift = util.by_pixel(14, -1),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-06.png",
         width = 968,
         height = 708,
         shift = util.by_pixel(3, -2),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-07.png",
         width = 1016,
         height = 722,
         shift = util.by_pixel(0, -1),
@@ -6847,7 +6847,7 @@ data:extend{
     }
   },
   {
-    name = "enemy-decal-transparent",
+    name = "lunaris_enemy-decal-transparent",
     type = "optimized-decorative",
     order = "b[decorative]-b[enemy-decal]",
     collision_box = {{-6, -4}, {6, 4}},
@@ -6858,56 +6858,56 @@ data:extend{
     pictures =
     {
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-00.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-00.png",
         width = 1016,
         height = 720,
         shift = util.by_pixel(0, -2),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-01.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-01.png",
         width = 936,
         height = 570,
         shift = util.by_pixel(-3, 23),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-02.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-02.png",
         width = 848,
         height = 540,
         shift = util.by_pixel(-43, 23),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-03.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-03.png",
         width = 968,
         height = 690,
         shift = util.by_pixel(4, -7),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-04.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-04.png",
         width = 800,
         height = 720,
         shift = util.by_pixel(7, -2),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-05.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-05.png",
         width = 846,
         height = 496,
         shift = util.by_pixel(17, 3),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-06.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-06.png",
         width = 916,
         height = 602,
         shift = util.by_pixel(6, 9),
         scale = 0.5
       },
       {
-        filename = "__base__/graphics/decorative/enemy-decal/enemy-decal-t-07.png",
+        filename = "__lunaris_graphics__/graphics/decorative/enemy-decal/enemy-decal-t-07.png",
         width = 1004,
         height = 710,
         shift = util.by_pixel(3, -3),
@@ -7004,3 +7004,125 @@ for k, v in pairs(data.raw["optimized-decorative"]) do
   }
 end
 --]]
+
+ -- WHITE CARPET GRASS
+ local function dec_default_collision()
+  return {layers={doodad=true}, colliding_with_tiles_only=true, not_colliding_with_itself=true}
+end
+
+data:extend({
+ {
+  name = "lunaris_white-carpet-grass",
+  type = "optimized-decorative",
+  order = "b[decorative]-a[grass]-b[carpet]",
+  collision_box = {{-2, -2}, {2, 2}},
+  collision_mask = dec_default_collision(),
+  grows_through_rail_path = true,
+  walking_sound = tile_sounds.walking.carpet_grass,
+  trigger_effect = decorative_trigger_effects.green_carpet_grass(),
+  autoplace =
+  {
+    order = "a[doodad]-f[grass]-c",
+    probability_expression = "grpi(0.2) + gleba_select(gleba_white_grass - clamp(gleba_decorative_knockout, 0, 1), 0.5, 2, 0.5, 0, 1)"
+  },
+  pictures =
+  {
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-00.png",
+      priority = base_decorative_sprite_priority,
+      width = 289,
+      height = 292,
+      shift = util.by_pixel(1.75, -3),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-01.png",
+      priority = base_decorative_sprite_priority,
+      width = 273,
+      height = 264,
+      shift = util.by_pixel(0.25, -0.5),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-02.png",
+      priority = base_decorative_sprite_priority,
+      width = 246,
+      height = 185,
+      shift = util.by_pixel(-4.5, 14.25),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-03.png",
+      priority = base_decorative_sprite_priority,
+      width = 282,
+      height = 220,
+      shift = util.by_pixel(2, -15.5),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-04.png",
+      priority = base_decorative_sprite_priority,
+      width = 264,
+      height = 146,
+      shift = util.by_pixel(2, -7.5),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-05.png",
+      priority = base_decorative_sprite_priority,
+      width = 235,
+      height = 262,
+      shift = util.by_pixel(4.25, 2),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-06.png",
+      priority = base_decorative_sprite_priority,
+      width = 260,
+      height = 257,
+      shift = util.by_pixel(-0.5, -6.25),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-07.png",
+      priority = base_decorative_sprite_priority,
+      width = 244,
+      height = 255,
+      shift = util.by_pixel(5.5, 2.75),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-08.png",
+      priority = base_decorative_sprite_priority,
+      width = 252,
+      height = 241,
+      shift = util.by_pixel(-4, 12.75),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-09.png",
+      priority = base_decorative_sprite_priority,
+      width = 260,
+      height = 135,
+      shift = util.by_pixel(0, 9.25),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-10.png",
+      priority = base_decorative_sprite_priority,
+      width = 272,
+      height = 290,
+      shift = util.by_pixel(5, -7.5),
+      scale = 0.5
+    },
+    {
+      filename = "__lunaris_graphics__/graphics/decorative/white-carpet-grass/white-carpet-grass-11.png",
+      priority = base_decorative_sprite_priority,
+      width = 267,
+      height = 253,
+      shift = util.by_pixel(0.75, -1.75),
+      scale = 0.5
+    }
+  }
+},
+})
